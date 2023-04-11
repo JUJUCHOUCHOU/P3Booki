@@ -1,0 +1,465 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 61.09px;
+    height: 19px;
+    margin: 3%;
+}
+nav{
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.navH,.navA{
+    padding-top: 17%;
+}
+.navH:hover {
+    border-top: #0065FC solid 2px;
+    color: #0065FC;
+}
+.navA:hover {
+    border-top: #0065FC solid 2px;
+    color: #0065FC;
+}
+.barreInfo{
+    margin-left: 3%;
+}
+form{
+    display: flex;
+    margin-right: 69%;
+}
+.iconButtonSearchPhone{
+    display: none;
+}
+form input{
+    border: none;
+    outline: none;
+}
+
+.search {
+    display: flex;
+    height: 49px;
+    align-items: center;
+    border: #F2F2F2 2px solid;
+    border-radius: 15px 15px 15px 15px;
+    width: fit-content;
+}
+
+.buttonSearch {
+    display: flex;
+    height: 49px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.iconButtonSearch {
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.filtre {
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+
+}
+
+.buttonFiltre {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonFiltre i {
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.buttonFiltre div {
+    display: flex;
+    font-size: 17px;
+    height: 49px;
+    margin-right: auto;
+    align-items: center;
+    border: #D9D9D9 2px solid;
+    border-radius: 25px 25px 25px 25px;
+    padding-right: 25px;
+}
+.buttonFiltre div:hover {
+    background-color: #DEEBFF;
+}
+.iBarre{
+    display: flex;
+    align-items: center;
+}
+.i{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    border: #D9D9D9 solid 1px;
+    border-radius: 15px;
+    margin-right: 1%;
+}
+.i i{
+    color: #0065fc;
+}
+.hotels{
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+}
+.hotels h2, #activite{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.hotels i{
+    font-size: 12px;
+}
+article .hebergement{
+    padding:2px;
+}
+.hebergement{
+    background-color: #F2F2F2;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+.cardhebergement{
+    background-color: white;
+    width: 27%;
+    border-radius: 20px;
+    margin-left: 4%;
+    padding: 2px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1))
+}
+.articleTop, .articleBottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+article img{
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+    border-radius:20px 20px 0 0 ;
+}
+article i{
+    color: #0065FC;
+    width: 14px;
+    height: 13px;
+}
+.gris{
+    color: #f2f2f2;
+}
+.cardInfo h3, .cardInfo P, .cardInfoPop h3, .cardInfoPop P{
+    margin: 2px;
+    font-size: 15px;
+}
+.cardInfo{
+    padding-left: 15px;
+}
+.populaire {
+    background-color: #F2F2F2;
+    border-radius: 25px ;
+    width: 29%;
+    height: auto;
+    margin-left: 3%;
+}
+.populaireBar {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+.populaireBar i{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.articlePop{
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 85%;
+    border-radius: 20px;
+    margin-bottom: 8.5%;
+    margin-left: 6%;
+    padding: 2px;
+}
+.articlePop img{
+    width: 106px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+.articlePop a{
+    display: flex;
+}
+.activBox{
+    background-color: white;
+    width: 27%;
+    border-radius: 20px;
+    margin: 2%;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1))
+}
+.cardInfoPop{
+    position: relative;
+}
+.etoilepop{
+    position: absolute;
+    bottom: 2%;
+}
+.activiteMarseille{
+    display: flex;
+    height: 445px;
+}
+.activBox img{
+    height: 90%;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.activite{
+    margin-left: 20px;
+}
+.activBox h3 {
+    font-size: 14px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 15%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+li h3{
+    margin-bottom: 3%;
+}
+li::marker, ul{
+    list-style: none;
+    padding-left: 0;
+}
+/*tablette*/
+@media (max-width:992px){
+    body{
+        margin:0;
+    }
+    
+    .buttonFiltres div:hover {
+        background-color: #DEEBFF;
+    }
+    .hotels{
+        flex-direction: column;
+    }
+    .hebergement{
+        width: 92%;
+    }
+    .populaire{
+        width: 92%;
+        display: flex;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+    .populaireBar{
+        display: flex;
+        align-items: baseline;
+        margin: 0;
+        padding-right: 3%;
+    }
+
+    .articlePop {
+        display: inline-flex;
+        width: 27%;
+        margin-left: 4%;
+    }
+    .articlePop img {
+        width: 106px;
+        object-fit: cover;
+        border-radius: 20px 0 0 20px;
+        height: 144px;
+    }
+    #activite{
+        margin-left: 2%;
+    }
+    .activiteMarseille {
+        height: 267px;
+    }
+    
+    .activBox img {
+        height: 82%;
+    }
+}
+/*smartphone*/
+@media (max-width:767px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header img{
+        margin-top: 21px;
+        margin-left: 0; 
+    }
+    nav{
+        width: 100%;
+        border-bottom: #f2f2f2 solid 2px;
+    }
+    .navH, .navA{
+        padding-left: 16%;
+        padding-right: 17%;
+        padding-bottom: 10%;
+        padding-top: 8%;
+    }
+    .navH:hover{
+        border-bottom: #0065FC solid 2px;
+        border-top: none;
+        color: #0065FC;
+    }
+    .navA:hover {
+        border-bottom: #0065FC solid 2px;
+        border-top: none;
+        color: #0065FC;
+    }
+    form{
+        margin-left: 3%;
+    }
+    .buttonSearch{
+        display: none;
+    }
+    .iconButtonSearchPhone{
+        display: flex;
+        width: 49px;
+        height: 49px;
+        background-color: #0065FC;
+        border-radius: 0 15px 15px 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .iconButtonSearchPhone i{
+        color:white ;
+    }
+    .filtre{
+        flex-wrap: wrap;
+    }
+    .buttonFiltre div{
+        display: flex;
+        width: 36%;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .i i{
+        padding: 1%;
+    }
+    .hotels{
+        flex-direction: column-reverse;
+    }
+    .populaire{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        margin-bottom: 9%;
+    }
+    .populaireBar{
+        margin-right: 4%;
+    }
+    section{
+        width: 100%;
+        background-color: white;
+        margin-left: 0;
+        border-radius: 0;
+    }
+    .cardTop, .cardBottom {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: -2%;
+    }  
+    .articlePop {
+        padding: 2px;
+        object-fit: cover;
+        display: inline-flex;
+        justify-content: flex-start;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 8.5%;
+        margin-left: 9%;
+        height: 144px;
+        width: 80%;
+    }
+    
+    section h2{
+        padding-top: 0;
+    }
+    .afficher{
+        display: none;
+    }
+    .hebergement{
+        background-color: white;
+    }
+    .activiteMarseille{
+        background-color: white;
+        display: flex;
+        width: 91%;
+        flex-direction: column;
+        height: 100%;
+    }
+    .cardhebergement{
+        width: 88%;
+        margin-bottom: 10%;
+        height: 190px;
+    }
+    .activBox img{
+        height: 80%;
+    }
+    .activBox{
+        width: 92%;
+        height: 190px;
+    }
+    footer{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 4%;
+    }
+}
