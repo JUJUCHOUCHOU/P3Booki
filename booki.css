@@ -92,17 +92,18 @@ form input{
 .buttonFiltre {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 67%;
     justify-content: center;
     align-items: center;
+    margin-right: 25%;
 }
 
 .buttonFiltre i {
     color: #0065FC;
     display: flex;
     justify-content: center;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 11px;
+    margin-right: 11px;
 }
 
 .buttonFiltre div {
@@ -139,7 +140,7 @@ form input{
     border-radius: 20px;
     display: flex;
 }
-.hotels h2, #activite{
+.hotels h2{
     padding-left: 3%;
     padding-top: 2%;
 }
@@ -209,7 +210,9 @@ article i{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    color: #0065FC;
 }
+
 .articlePop{
     object-fit: cover;
     display: flex;
@@ -253,8 +256,12 @@ article i{
     padding: 0;
     justify-content: space-between;
 }
+
 .activite{
     margin-left: 20px;
+}
+.activite h2{
+    padding-left: 2%;
 }
 .activBox h3 {
     font-size: 14px;
@@ -283,7 +290,10 @@ li::marker, ul{
     body{
         margin:0;
     }
-    
+    .buttonFiltre{
+        margin-right: 0;
+        width: 91%;
+    }
     .buttonFiltres div:hover {
         background-color: #DEEBFF;
     }
@@ -291,10 +301,10 @@ li::marker, ul{
         flex-direction: column;
     }
     .hebergement{
-        width: 92%;
+        width: 94%;
     }
     .populaire{
-        width: 92%;
+        width: 94%;
         display: flex;
         margin-top: 3%;
         flex-direction: column;
@@ -318,7 +328,7 @@ li::marker, ul{
         height: 144px;
     }
     #activite{
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .activiteMarseille {
         height: 267px;
@@ -339,13 +349,15 @@ li::marker, ul{
         margin-top: 21px;
         margin-left: 0; 
     }
+
     nav{
         width: 100%;
         border-bottom: #f2f2f2 solid 2px;
+        padding-right: 0;
     }
     .navH, .navA{
-        padding-left: 16%;
-        padding-right: 17%;
+        padding-left: 13%;
+        padding-right: 12%;
         padding-bottom: 10%;
         padding-top: 8%;
     }
@@ -359,9 +371,7 @@ li::marker, ul{
         border-top: none;
         color: #0065FC;
     }
-    form{
-        margin-left: 3%;
-    }
+    
     .buttonSearch{
         display: none;
     }
@@ -380,11 +390,18 @@ li::marker, ul{
     .filtre{
         flex-wrap: wrap;
     }
+    .buttonFiltre{
+        width: 89%;
+        margin-right: 10%;
+    }
     .buttonFiltre div{
         display: flex;
         width: 36%;
         align-items: center;
         margin-bottom: 15px;
+    }
+    .buttonFiltre a{
+        font-size: 15px;
     }
     .i i{
         padding: 1%;
@@ -400,6 +417,7 @@ li::marker, ul{
     }
     .populaireBar{
         margin-right: 4%;
+        margin-left: 4%;
     }
     section{
         width: 100%;
@@ -426,7 +444,9 @@ li::marker, ul{
         height: 144px;
         width: 80%;
     }
-    
+    .populaireBar h2{
+        padding-left: 6%;
+    }
     section h2{
         padding-top: 0;
     }
@@ -444,22 +464,27 @@ li::marker, ul{
         height: 100%;
     }
     .cardhebergement{
-        width: 88%;
+        width: 86%;
         margin-bottom: 10%;
         height: 190px;
+        margin-left: 6%;
     }
     .activBox img{
         height: 80%;
     }
     .activBox{
-        width: 92%;
+        width: 95%;
         height: 190px;
+        margin-left: 8px;
     }
+    
     footer{
-        width: 100%;
+        width: auto;
         flex-direction: column;
         margin-left: 0;
-        padding-top: 0;
         padding-left: 4%;
+        margin-right: 0;
     }
+    
 }
+/*derniere modification le 12/04/2023*/
