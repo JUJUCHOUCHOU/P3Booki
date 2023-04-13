@@ -392,7 +392,8 @@ li::marker, ul{
     }
     .buttonFiltre{
         width: 89%;
-        margin-right: 10%;
+        margin-right: 5%;
+        margin-left: 18px;
     }
     .buttonFiltre div{
         display: flex;
@@ -401,7 +402,11 @@ li::marker, ul{
         margin-bottom: 15px;
     }
     .buttonFiltre a{
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .buttonFiltre i{
+        margin-left: 8px;
+        margin-right: 8px;
     }
     .i i{
         padding: 1%;
